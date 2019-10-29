@@ -195,3 +195,14 @@ p {
 #who .who-img {
   background: url("../img/people.jpg") no-repeat center center/cover;
 }
+
+/* clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
