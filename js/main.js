@@ -21,7 +21,8 @@ $("#navbar a, .btn").on("click", function(event) {
 
     $("html, body").animate(
       {
-        scrollTop: $(hash).offset().top - 100
+        // .top - 65 <-- scroll -65 from the section start
+        scrollTop: $(hash).offset().top - 65
       },
       650
     );
