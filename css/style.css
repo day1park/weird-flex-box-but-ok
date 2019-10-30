@@ -127,6 +127,11 @@ p {
   padding: 1rem;
 }
 
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
